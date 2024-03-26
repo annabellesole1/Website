@@ -21,7 +21,7 @@ export default function About() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1ZoLLNV6DaSjlY1wI26vsxJslhAhBxh_Y/view?usp=sharing"
+              href="https://drive.google.com/file/d/12H2O1QGIdUa5xVI0SIxzQJaQ8RzZY7P4/view?usp=sharing"
               className="ml-4 inline-flex text-white bg-blue border-0 py-2 px-6 focus:outline-none hover:bg-darkblue hover:text-white rounded text-lg">
               Resume
             </a>
