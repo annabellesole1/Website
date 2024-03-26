@@ -6,7 +6,7 @@ export const projects = [
       description:
         "My first independent React project. I used Create React App and TailwindCSS, along with a template from freecodecamp.com. I modified the template to reflect my style as a developer and showcase my work.",
       image: "./website.png",
-      link: "#about", //github link here
+      link: "https://github.com/annabellesole1/Website",
     },
     {
       title: "MLB Player Value EDA",
