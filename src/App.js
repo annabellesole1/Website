@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <main className="text-black bg-gray-200 body-font">
+    <main className="text-black bg-white body-font">
     <Navbar />
     <About />
     <Projects />

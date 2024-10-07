@@ -1,6 +1,14 @@
 
 export const projects = [
-    {
+  {
+    title: "Personal Website",
+    subtitle: "React and Node.js",
+    description:
+      "My first independent React project. I used Create React App and TailwindCSS, along with a template from freecodecamp.com. I modified the template to reflect my style as a developer and showcase my work.",
+    image: "./website.png",
+    link: "https://github.com/annabellesole1/Website",
+  },
+  {
       title: "Personal Website",
       subtitle: "React and Node.js",
       description:
@@ -40,4 +48,6 @@ export const projects = [
     "./javascript.png",
     "./python.png",
     "./r.png",
+    "./react.png",
+    "./typescript.png"
   ];

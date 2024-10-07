@@ -7,13 +7,14 @@ module.exports = {
     extend: {
       colors:{
         'lightblue': '   #16B0CC   ',
-
-     
         'blue': '#1093AB   ',
         'darkblue': '#0C606F    '
         
       }
     },
+    fontFamily: {
+      jost: ['"Jost"', "sans-serif"]
+    }
   },
   plugins: [],
 }
