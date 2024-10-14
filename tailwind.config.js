@@ -13,7 +13,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      jost: ['"Jost"', "sans-serif"]
+      jost: ['"Jost"', "sans-serif"],
+      kurale: ['"Kurale"', 'serif'],
     }
   },
   plugins: [],
