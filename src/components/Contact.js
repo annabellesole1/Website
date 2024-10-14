@@ -26,7 +26,7 @@ export default function Contact() {
       .catch((error) => alert(error));
   }
   return (
-    <section id="contact" className="relative text-gray-400 bg-black body-font">
+    <section id="contact" className="relative text-white bg-black body-font">
       <div className="container px-10 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <form
           netlify
@@ -44,27 +44,27 @@ export default function Contact() {
 </p>
 
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
 
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
 
            />
@@ -72,13 +72,13 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+              className="leading-7 text-sm text-white">
               Message
             </label>
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-blue focus:border-blue focus:ring-2 focus:ring-darkblue h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
 
            />

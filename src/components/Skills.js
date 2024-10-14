@@ -9,9 +9,9 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         
         <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
+          <h2 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
             Skills &amp; Technologies
-          </h1>
+          </h2>
         </div>
         <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
